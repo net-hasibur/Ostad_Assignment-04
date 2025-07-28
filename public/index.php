@@ -2,6 +2,7 @@
 
 require_once "./../app/classes/VehicleManager.php";
 
+
 $vehicleManager = new VehicleManager("", "", "", "");
 $vehicles = $vehicleManager->getVehicles();
 

@@ -11,6 +11,7 @@ if ($id === null) {
     exit;
 }
 
+
 $vehicles = $vehicleManager->getVehicles();
 $vehicle = $vehicles[$id] ?? null;
 
